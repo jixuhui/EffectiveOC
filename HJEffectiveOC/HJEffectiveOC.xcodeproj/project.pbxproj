@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045164091D8BFF6000E437E8 /* HJForwardingOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 045164081D8BFF6000E437E8 /* HJForwardingOC.m */; };
 		04E88FDA1D5F590D006FF5AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E88FD91D5F590D006FF5AF /* main.m */; };
 		04E88FDD1D5F590D006FF5AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E88FDC1D5F590D006FF5AF /* AppDelegate.m */; };
 		04E88FE01D5F590D006FF5AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E88FDF1D5F590D006FF5AF /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045164071D8BFF6000E437E8 /* HJForwardingOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJForwardingOC.h; sourceTree = "<group>"; };
+		045164081D8BFF6000E437E8 /* HJForwardingOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJForwardingOC.m; sourceTree = "<group>"; };
 		04E88FD51D5F590C006FF5AF /* HJEffectiveOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJEffectiveOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E88FD91D5F590D006FF5AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E88FDB1D5F590D006FF5AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045164061D8BFF4A00E437E8 /* 第二章 */ = {
+			isa = PBXGroup;
+			children = (
+				045164071D8BFF6000E437E8 /* HJForwardingOC.h */,
+				045164081D8BFF6000E437E8 /* HJForwardingOC.m */,
+			);
+			path = "第二章";
+			sourceTree = "<group>";
+		};
 		04E88FCC1D5F590C006FF5AF = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +73,7 @@
 		04E88FD71D5F590D006FF5AF /* HJEffectiveOC */ = {
 			isa = PBXGroup;
 			children = (
+				045164061D8BFF4A00E437E8 /* 第二章 */,
 				04E88FF11D5F593F006FF5AF /* 第一章 */,
 				04E88FDB1D5F590D006FF5AF /* AppDelegate.h */,
 				04E88FDC1D5F590D006FF5AF /* AppDelegate.m */,
@@ -163,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E88FF41D5F597C006FF5AF /* HJCommon.m in Sources */,
+				045164091D8BFF6000E437E8 /* HJForwardingOC.m in Sources */,
 				04E88FE01D5F590D006FF5AF /* ViewController.m in Sources */,
 				04E88FDD1D5F590D006FF5AF /* AppDelegate.m in Sources */,
 				04E88FDA1D5F590D006FF5AF /* main.m in Sources */,
@@ -314,6 +328,7 @@
 				04E88FEE1D5F590D006FF5AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
