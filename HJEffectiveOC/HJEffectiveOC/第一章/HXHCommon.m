@@ -1,37 +1,37 @@
 //
-//  HJCommon.m
+//  HXHCommon.m
 //  HJEffectiveOC
 //
 //  Created by Hubbert on 16/8/13.
 //  Copyright © 2016年 private. All rights reserved.
 //
 
-#import "HJCommon.h"
+#import "HXHCommon.h"
 
-@interface HJCommon()
+@interface HXHCommon()
 {
-    HJCOMMON_TYPE _curType;
+    HXHCommon_TYPE _curType;
 }
 @end
 
-const float HJCommonStatus = 0.5f;
+const float HXHCommonStatus = 0.5f;
 
-@implementation HJCommon
+@implementation HXHCommon
 
 - (void)doSomething
 {
     switch (_curType) {
-        case HJCOMMON_TYPE_NONE:
+        case HXHCommon_TYPE_NONE:
         {
             
         }
             break;
-        case HJCOMMON_TYPE_RICH:
+        case HXHCommon_TYPE_RICH:
         {
             
         }
             break;
-        case HJCOMMON_TYPE_SIMPLE:
+        case HXHCommon_TYPE_SIMPLE:
         {
             
         }

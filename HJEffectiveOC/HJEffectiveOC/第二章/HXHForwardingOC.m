@@ -1,12 +1,12 @@
 //
-//  HJForwardingOC.m
+//  HXHForwardingOC.m
 //  HJEffectiveOC
 //
 //  Created by Hubbert on 16/9/16.
 //  Copyright © 2016年 private. All rights reserved.
 //
 
-#import "HJForwardingOC.h"
+#import "HXHForwardingOC.h"
 #import <objc/runtime.h>
 
 //转发目标类
@@ -25,13 +25,13 @@
 }
 @end
 
-@interface HJForwardingOC()
+@interface HXHForwardingOC()
 {
     NSMutableDictionary *data;
 }
 @end
 
-@implementation HJForwardingOC
+@implementation HXHForwardingOC
 @dynamic title,author;//不自动生成实现
 
 + (void)load

@@ -1,5 +1,5 @@
 //
-//  HJForwardingOC.h
+//  HXHForwardingOC.h
 //  HJEffectiveOC
 //
 //  Created by Hubbert on 16/9/16.
@@ -14,7 +14,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HJForwardingOC : NSObject
+@interface HXHForwardingOC : NSObject
 
 //声明了两个setter/getter
 @property (nonatomic,strong) NSString *title;
